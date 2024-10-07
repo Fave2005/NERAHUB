@@ -1,0 +1,38 @@
+/* comment in CSS */
+* {
+  color: red;
+  background-color: purple;
+}
+
+div {
+  color: yellow;
+  /* background-color: grey; */
+}
+#nerahubs {
+  font-size: 20px;
+  color: dimgray;
+  background-color: #06acd1;
+}
+.nerahubs {
+  color: brown;
+  background-color: bisque;
+}
+
+.one {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photo {
+  width: 300px;
+  height: 200px;
+  object-fit: fill;
+  border-radius: 10px;
+}
+.one div {
+  padding: 10px;
+}
+.one h3 {
+  font-size: 30px;
+}
