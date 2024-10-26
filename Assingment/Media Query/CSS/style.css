@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* styling the body of the page */
+
+body {
+  background-color: yellow;
+  margin: 0;
+  font-size: 1.235rem;
+}
+
+@media (min-width: 650px) {
+  body {
+    background-color: orange;
+    font-family: monospace;
+  }
+}
+/* 
+@media (min-width: 400px) and (max-width: 650px) {
+    body{
+        background-color: plum;
+    }
+} */
+
+.container {
+  width: 95%;
+  font-size: 1.1rem;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #312614;
+  text-align: center;
+}
+
+.heading .head {
+  color: #b7832f;
+}
+
+.img {
+  width: 100%;
+  height: 100px;
+}
+
+.column_1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  padding: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .column_1 {
+    flex-direction: column;
+  }
+}
+
+.column_1 h2 {
+  color: #707070;
+  font-size: 2rem;
+}
+.column_1 .col_3 {
+  color: #fff;
+  background-color: #312614;
+  padding: 1rem;
+}
+
+.column_2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 1.5em;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .column_2 {
+    flex-direction: column;
+  }
+}
+
+.column_2 h2 {
+  color: #707070;
+}
+
+.column_2 .col_2 {
+  color: #fff;
+  background-color: #312614;
+  padding: 1rem;
+}
+
+/* arranging the width sizes */
+
+.col_1 {
+  width: 35%;
+  margin-right: 1em;
+}
+
+.col_2 {
+  width: 70%;
+}
+
+.col_3 {
+  width: 45%;
+  margin-left: 1em;
+}
+@media (max-width: 600px) {
+  .col_1,
+  .col_2,
+  .col_3 {
+    width: 100%;
+  }
+}
+
+.column_2 .col_2 {
+  width: 30%;
+}
+
+.column_2 .col_1 {
+  width: 70%;
+}
+
+@media (max-width: 600px) {
+  .column_2 .col_1,
+  .column_2 .col_2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column_1 .col_3,
+  .column_2 .col_2 {
+    margin: 1.5rem auto;
+  }
+}
